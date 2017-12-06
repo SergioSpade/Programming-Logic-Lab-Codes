@@ -1,0 +1,7 @@
+C:\Users\sergi\source\repos\Lab 3 assignement\Lab 3 assignement\bin\Debug\Lab 3 assignement.exe.config
+C:\Users\sergi\source\repos\Lab 3 assignement\Lab 3 assignement\bin\Debug\Lab 3 assignement.exe
+C:\Users\sergi\source\repos\Lab 3 assignement\Lab 3 assignement\bin\Debug\Lab 3 assignement.pdb
+C:\Users\sergi\source\repos\Lab 3 assignement\Lab 3 assignement\obj\Debug\Lab 3 assignement.csprojResolveAssemblyReference.cache
+C:\Users\sergi\source\repos\Lab 3 assignement\Lab 3 assignement\obj\Debug\Lab 3 assignement.csproj.CoreCompileInputs.cache
+C:\Users\sergi\source\repos\Lab 3 assignement\Lab 3 assignement\obj\Debug\Lab 3 assignement.exe
+C:\Users\sergi\source\repos\Lab 3 assignement\Lab 3 assignement\obj\Debug\Lab 3 assignement.pdb

@@ -1,0 +1,7 @@
+c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\bin\Debug\Lab 4 Assignment.exe.config
+c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\bin\Debug\Lab 4 Assignment.exe
+c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\bin\Debug\Lab 4 Assignment.pdb
+c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.csprojResolveAssemblyReference.cache
+c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.csproj.CoreCompileInputs.cache
+c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.exe
+c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.pdb
