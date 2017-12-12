@@ -1,0 +1,7 @@
+C:\Users\sergi\source\repos\Final Exam Program\Final Exam Program\bin\Debug\Final Exam Program.exe.config
+C:\Users\sergi\source\repos\Final Exam Program\Final Exam Program\bin\Debug\Final Exam Program.exe
+C:\Users\sergi\source\repos\Final Exam Program\Final Exam Program\bin\Debug\Final Exam Program.pdb
+C:\Users\sergi\source\repos\Final Exam Program\Final Exam Program\obj\Debug\Final Exam Program.csprojResolveAssemblyReference.cache
+C:\Users\sergi\source\repos\Final Exam Program\Final Exam Program\obj\Debug\Final Exam Program.csproj.CoreCompileInputs.cache
+C:\Users\sergi\source\repos\Final Exam Program\Final Exam Program\obj\Debug\Final Exam Program.exe
+C:\Users\sergi\source\repos\Final Exam Program\Final Exam Program\obj\Debug\Final Exam Program.pdb
