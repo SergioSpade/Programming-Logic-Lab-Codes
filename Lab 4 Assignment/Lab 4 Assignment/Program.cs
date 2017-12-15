@@ -10,119 +10,135 @@ namespace Lab_4_Assignment
     {
         static void Main(string[] args)
         {
-            System.Console.Write("Are you buying Matinee or an Evening tickets? ");
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////
+            int childTicket;
+            int adultTicket;
+            int seniorTicket;
+            double totalTicketCost = 0;
+            double totalConcessionCost = 0;
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////
+            double smallSodaCost = 3.50;
+            double largeSodaCost = 5.99;
+            double hotDogCost = 3.99;
+            double popcornCost = 4.50;
+            double candyCost = 1.99;
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////
+            int smallSoda = 0;
+            int largeSoda = 0;
+            int hotDog = 0;
+            int popcorn = 0;
+            int candy = 0;
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////
+            double firstDiscount = 0;
+            double secondDiscount = 0;
+            double thirdDiscount = 0;
+            //////////////////////////////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////
+            System.Console.WriteLine("Welcome to the Program Cinema!");
+           
+            System.Console.Write("How many Children tickets today?");
+            childTicket = int.Parse(System.Console.ReadLine());
+            System.Console.Write("How many Adult tickets today?");
+            adultTicket = int.Parse(System.Console.ReadLine());
+            System.Console.Write("How many Senior tickets today?");
+            seniorTicket = int.Parse(System.Console.ReadLine());
+
+            System.Console.Write("If you are buying Matinee Tickets Press 1, For Evening Tickets Press 2? ");
             string movieTimes = System.Console.ReadLine();
-            double totalPeople;
-            double smallsoda;
-            double largesoda;
-            double hotdogs;
-            double popcorns;
-            double candies;
-            double concessionStand;
-            double totalCost;
 
-            if (movieTimes == "Matinee")
+            if (movieTimes == "1")
             {
-                System.Console.WriteLine();
-                System.Console.WriteLine("Ok. you are buying Matinee tickets!");
+                double childCost = 3.99;
+                double adultCost = 5.99;
+                double seniorCost = 4.50;
 
-                System.Console.Write("How many Children tickets will you be buying today?");
-                double child = double.Parse(System.Console.ReadLine());
-                double totalChildcost = child * 3.99;
-
-                System.Console.Write("How many Adult tickets will you be buying today?");
-                double adult = double.Parse(System.Console.ReadLine());
-                double totalAdultcost = adult * 5.99;
-
-                System.Console.Write("How many Senior tickets will you be buying today?");
-                double senior = double.Parse(System.Console.ReadLine());
-                double totalSeniorcost = senior * 4.50;
-
-                totalCost = totalAdultcost + totalChildcost + totalSeniorcost;
-
-                totalPeople = child + adult + senior;
-                System.Console.WriteLine("You're total amount of tickets are: " + totalPeople);
-                System.Console.WriteLine("You're total cost in tickets: " + totalCost);
-                
+                totalTicketCost += childTicket + childCost;
+                totalTicketCost += adultTicket + adultCost;
+                totalTicketCost += seniorTicket + seniorCost;               
             }
-            else if (movieTimes == "Evening")
-            {
-                System.Console.WriteLine();
-                System.Console.WriteLine("Ok. You're buying Evening tickets!");
+            else if (movieTimes == "2")
+            {             
+                double childCost = 6.99;
+                double adultCost = 10.99;
+                double seniorCost = 8.50;
 
-                System.Console.Write("How many Children tickets will you be buying today?");
-                double child = double.Parse(System.Console.ReadLine());
-                double totalChildcost = child * 6.99;
-
-                System.Console.Write("How many Adult tickets will you be buying today?");
-                double adult = double.Parse(System.Console.ReadLine());
-                double totalAdultcost = adult * 10.99;
-
-                System.Console.Write("How many Senior tickets will you be buying today?");
-                double senior = double.Parse(System.Console.ReadLine());
-                double totalSeniorcost = senior * 8.50;
-
-                totalCost = totalAdultcost + totalChildcost + totalSeniorcost ;
-
-                totalPeople = child + adult + senior;
-                System.Console.WriteLine("You're total amount of tickets are: " + totalPeople);
-                System.Console.WriteLine("You're total cost in tickets: " + totalAdultcost + totalChildcost + totalSeniorcost);
-
-                if (totalPeople >= 3)
-                {
-                    System.Console.WriteLine("Because you have purchased " + totalPeople + " tickets you get 1 free bag of popcorn!!!");                       
-                }
+                totalTicketCost += childTicket + childCost;
+                totalTicketCost += adultTicket + adultCost;
+                totalTicketCost += seniorTicket + seniorCost;            
+                
             }
             else
             {
                 System.Console.WriteLine("I'm sorry I didn't understand you please close the window and start again. ");
             }
 
-            System.Console.WriteLine("Would you like to buy anything from the Concession stand? Yes or No: ");
-            string snacks = System.Console.ReadLine();
+            int totalTicketCount = childTicket + adultTicket + seniorTicket;
 
-            if (snacks == "Yes")
-            {
+            System.Console.WriteLine("Alright lets move onto the Concession stand!");
+                   
+            System.Console.Write("How many Small Sodas? ");
+            smallSoda = int.Parse(System.Console.ReadLine());
 
-                System.Console.Write("How many Small Sodas? ");
-                smallsoda = double.Parse(System.Console.ReadLine());
-                smallsoda = (smallsoda * 3.50);
+            System.Console.Write("How many Large Sodas? ");
+            largeSoda = int.Parse(System.Console.ReadLine());                
 
-                System.Console.Write("How many Large Sodas? ");
-                largesoda = double.Parse(System.Console.ReadLine());
-                largesoda = (largesoda * 5.99);
+            System.Console.Write("How many Hot Dogs? ");
+            hotDog = int.Parse(System.Console.ReadLine());                
 
-                System.Console.Write("How many Hot Dogs? ");
-                hotdogs = double.Parse(System.Console.ReadLine());
-                hotdogs = (hotdogs * 3.99);
-
-                System.Console.Write("How many Popcorns? ");
-                popcorns = double.Parse(System.Console.ReadLine());
-                popcorns = (popcorns * 4.50);
-
-                System.Console.Write("How many Candies ?");
-                candies = double.Parse(System.Console.ReadLine());
-                candies = (candies * 1.99);
-
-                concessionStand = smallsoda + largesoda + hotdogs + popcorns + candies;
-
-                if ((popcorns > 0) && (largesoda > 0))
-                {                    
-                    System.Console.WriteLine("Because you've bought a large popcorn and a large soda you recieve a $2 discount.");
-                    System.Console.WriteLine("Your total is now: " + (concessionStand - 2));
-                }
-                if (candies >= 5.97)
-                {
-                    System.Console.WriteLine("You have bought 3 candies and now you get one free!");
-                }
+            System.Console.Write("How many Popcorns? ");
+            popcorn = int.Parse(System.Console.ReadLine());
                 
-            }
-            else
+            System.Console.Write("How many Candies ?");
+            candy = int.Parse(System.Console.ReadLine());
+
+            totalConcessionCost += smallSodaCost + smallSoda;
+            totalConcessionCost += largeSodaCost + largeSoda;
+            totalConcessionCost += hotDogCost + hotDog;
+            totalConcessionCost += candyCost + candy;
+            totalConcessionCost += popcornCost + popcorn;
+
+           
+            if (popcorn >= 1 && largeSoda >= 1 && totalTicketCount >= 1)
+
             {
-                System.Console.WriteLine("Ok. Enjoy your movie with no snacks.");
+
+                if (popcorn <= largeSoda && popcorn <= totalTicketCount)
+                {
+                    firstDiscount = 2 * popcorn;
+                }
+
+                else if (largeSoda <= popcorn && largeSoda <= totalTicketCount)
+                {
+                    firstDiscount = 2 * largeSoda;
+                }
+                else
+                {
+                    firstDiscount = 2 * totalTicketCount;
+                }
+
             }
+            if (totalTicketCount >= 3)
+            {
+                if (movieTimes == "2")
+                {
+                    if (popcorn >= 1)
+                    {
+                        secondDiscount = 4.50;
+                    }
+                }
+            }
+            if (candy >= 4)
+            {
+                thirdDiscount = (candy / 4) * 1.99;
+            }
+            double discountAmount = firstDiscount + secondDiscount + thirdDiscount;
+            double totalCost = (totalTicketCost + totalConcessionCost) - discountAmount;
 
-
+            System.Console.WriteLine("Your total cost is: $" + totalCost);
             System.Console.WriteLine("Enjoy your movie!");
             System.Console.WriteLine("Press any key to end...");
 

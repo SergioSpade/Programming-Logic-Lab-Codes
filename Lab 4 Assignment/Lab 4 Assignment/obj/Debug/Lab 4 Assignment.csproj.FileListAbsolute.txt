@@ -5,3 +5,10 @@ c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 As
 c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.csproj.CoreCompileInputs.cache
 c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.exe
 c:\users\sergi\source\repos\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.pdb
+C:\Users\sergi\Documents\GitHub\Programming-Logic-Lab-Codes\Lab 4 Assignment\Lab 4 Assignment\bin\Debug\Lab 4 Assignment.exe.config
+C:\Users\sergi\Documents\GitHub\Programming-Logic-Lab-Codes\Lab 4 Assignment\Lab 4 Assignment\bin\Debug\Lab 4 Assignment.exe
+C:\Users\sergi\Documents\GitHub\Programming-Logic-Lab-Codes\Lab 4 Assignment\Lab 4 Assignment\bin\Debug\Lab 4 Assignment.pdb
+C:\Users\sergi\Documents\GitHub\Programming-Logic-Lab-Codes\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.csprojResolveAssemblyReference.cache
+C:\Users\sergi\Documents\GitHub\Programming-Logic-Lab-Codes\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.csproj.CoreCompileInputs.cache
+C:\Users\sergi\Documents\GitHub\Programming-Logic-Lab-Codes\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.exe
+C:\Users\sergi\Documents\GitHub\Programming-Logic-Lab-Codes\Lab 4 Assignment\Lab 4 Assignment\obj\Debug\Lab 4 Assignment.pdb
